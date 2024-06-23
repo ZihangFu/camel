@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Paper Products - Camel Global</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #1d4f91;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 20px;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #1d4f91;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Living Paper Products</h1>
+    </header>
+    <nav>
+        <a href="index.html">← Back to Home</a>
+    </nav>
+    <main>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="/api/placeholder/200/200" alt="Jumbo Toilet Paper">
+                <h2>Jumbo Toilet Paper</h2>
+                <p>Large-capacity toilet paper for high-traffic areas.</p>
+            </div>
+            <div class="product-item">
+                <img src="/api/placeholder/200/200" alt="Toilet Tissue">
+                <h2>Toilet Tissue</h2>
+                <p>Soft and absorbent toilet tissue for everyday use.</p>
+            </div>
+            <div class="product-item">
+                <img src="/api/placeholder/200/200" alt="Facial Tissue">
+                <h2>Facial Tissue</h2>
+                <p>Gentle facial tissues for personal care.</p>
+            </div>
+            <div class="product-item">
+                <img src="/api/placeholder/200/200" alt="Hand Towel">
+                <h2>Hand Towel</h2>
+                <p>Absorbent hand towels for quick drying.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
