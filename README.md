@@ -1,4 +1,6 @@
-# Freshwater Biosecurity Guide
+# Camel Global Website
+
+Welcome to the Camel Global website repository. This project contains the HTML, CSS, and assets for the Camel Global website, which includes pages for Home, Products, About Us, and Contact.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -8,8 +10,7 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
 - [Usage Guide](#usage-guide)
-    - [User Registration and Login](#user-registration-and-login)
-    - [Navigating the Dashboard](#navigating-the-dashboard)
+    - [Navigating the Website](#navigating-the-website)
 - [Development](#development)
     - [Contributing](#contributing)
     - [Environment Setup](#environment-setup)
@@ -17,109 +18,62 @@
 - [License](#license)
 
 ## Project Overview
-The Freshwater Biosecurity Guide web application is developed as a comprehensive platform aimed at preserving New Zealand's freshwater ecosystems by informing and educating the public about potential biosecurity threats posed by pests and diseases. This project leverages Flask, a Python web framework, to offer a responsive, user-friendly interface that caters to different user roles, each with specific functionalities and permissions.
+The Camel Global website is designed to provide comprehensive information about the company's products and services. The site includes sections for Home, Products, About Us, and Contact, each offering unique content and functionality to meet the needs of different users.
 
 ## Features
-- **Dynamic User Roles**: Three distinct user roles (River Users, Staff, Administrators) with role-based access to functionalities.
-- **Secure User Authentication**: Incorporates Flask-Bcrypt for hashing passwords, ensuring secure user registration and login processes.
-- **CRUD Operations**: Allows for the creation, reading, updating, and deletion of guide entries, providing comprehensive management of biosecurity information.
-- **Responsive Web Design**: Crafted using Bootstrap, the application offers a seamless experience across various devices and screen sizes.
+- **Responsive Design**: The website is designed using responsive web design principles to ensure a seamless experience across various devices and screen sizes.
+- **Product Showcase**: Detailed information about Camel Global's products, including images and descriptions.
+- **Navigation**: Easy-to-use navigation menus to help users find the information they need quickly.
+- **Contact Information**: Easy access to contact details for inquiries and support.
 
 ## Technologies Used
-- **Frontend**: HTML5, CSS3 (Bootstrap 4), JavaScript (with jQuery)
-- **Backend**: Flask (Python 3.8+)
-- **Database**: MySQL (MariaDB or MySQL 5.7+ recommended)
-- **Security**: Flask-Bcrypt for password hashing and Flask-Login for session management
+- **Frontend**: HTML5, CSS3 (with custom styling), JavaScript
+- **Design Framework**: Bootstrap 4 for responsive design
 
 ## Getting Started
 
 ### Prerequisites
-Before beginning, ensure  have the following installed:
-- Python 3.8 or newer
-- pip and virtualenv
-- MySQL server (MariaDB or MySQL 5.7+)
+Before you begin, ensure you have the following:
+- A modern web browser (e.g., Chrome, Firefox, Edge)
+- A text editor or IDE (e.g., VSCode, Sublime Text)
+- Basic knowledge of HTML, CSS, and JavaScript
 
 ### Installation
-Follow these steps to get my development environment set up:
+Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/ZihangFu/Biosecurity.git
-    cd Biosecurity
-    ```
-
-2. **Create and activate a virtual environment**:
-    ```bash
-    python3 -m venv venv
-    source .venv/scripts/activate.ps1`
-    ```
-
-3. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Database setup**: Create a MySQL database and import the provided schema and initial data.
-
-5. **Environment configuration**: Set up my `.env` file with the required database credentials and secret key.
-
-6. **Run the Flask application**:
-    ```bash
-    flask run
-    ```
-    Visit `http://127.0.0.1:5000/` in my browser to access the application.
-
-## Usage Guide
-
-### User Registration and Login
-New users can register through the application's registration page. Once registered, users can log in to access their respective dashboards based on their user role.
-
-#### Samples Login Username and Password
-- **Admin**:
-  - Username: admin
-  - Password: Lincoln001!
-
-- **Staff**:
-  - Username: staff1
-  - Password: Lincoln001!
-  - Username: staff2
-  - Password: Lincoln001!
-  - Username: staff3
-  - Password: Lincoln001!
-
-- **Users**:
-  - Username: riveruser1
-  - Password: Lincoln001!
-  - Username: riveruser2
-  - Password: Lincoln001!
-  - Username: riveruser3
-  - Password: Lincoln001!
-  - Username: riveruser4
-  - Password: Lincoln001!
-  - Username: riveruser5
-  - Password: Lincoln001!
-
-### Navigating the Dashboard
-Each user role has access to different functionalities within the dashboard:
-- **River Users**: Can view and edit their profile and browse the biosecurity guide.
-- **Staff**: In addition to River User capabilities, can manage guide entries.
-- **Administrators**: Have full access to the system, including user and staff management.
-
-## Development
-
-### Contributing
+```bash
+    git clone https://github.com/zihangfu/camel.git
+    cd camel
+Open the project in your text editor or IDE.
+Launch the website:
+Open home.html in your web browser to view the home page.
+Usage Guide
+Navigating the Website
+The Camel Global website is structured with multiple pages, each serving a specific purpose:
+Home Page (home.html): Provides an overview of Camel Global and its mission.
+Products Page (products.html): Showcases the range of products offered by Camel Global.
+About Us Page (about.html): Details the company's history, mission, and values.
+Contact Page (contact.html): Provides contact information for inquiries and support.
+Key Sections:
+Header: Includes the company logo and navigation menu.
+Hero Section: Features a welcoming message with a background image on the home page.
+Product Grid: Displays individual products with images and links to more details on the products page.
+Footer: Contains contact information and copyright notice.
+Development
+Contributing
 Contributions to this project are welcome. To contribute:
-1. Fork the repository.
-2. Create a new branch for my feature (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
-
-### Environment Setup
-For detailed instructions on setting up my development environment, refer to the Installation section.
-
-## Acknowledgments
-This project was made possible by the valuable information and resources provided by:
-- Ministry for Primary Industries (MPI) - for biosecurity threat data.
-- Department of Conservation (DOC) - for their extensive database on freshwater pests.
-- National Institute of Water and Atmospheric Research (NIWA) - for their research on freshwater ecosystems.
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature/AmazingFeature).
+Commit your changes (git commit -m 'Add some AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a pull request.
+Environment Setup
+For detailed instructions on setting up your development environment, refer to the Installation section.
+Acknowledgments
+This project was made possible by the hard work and dedication of the Camel Global team.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+Contact
+For any inquiries, please contact us at camelglobalnz@gmail.com.
+© 2024 Camel Global. All rights reserved.
