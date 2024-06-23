@@ -29,10 +29,29 @@
             border: 1px solid #ddd;
             padding: 15px;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         .product-item img {
             max-width: 100%;
             height: auto;
+            margin-bottom: auto;
+        }
+        .product-item h2 {
+            margin: 10px 0;
+        }
+        .more-details {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #1d4f91;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .more-details:hover {
+            background-color: #163d73;
         }
         a {
             color: #1d4f91;
@@ -48,34 +67,39 @@
         <h1>Packaging Products</h1>
     </header>
     <nav>
-        <a href="index.html">← Back to Home</a>
+        <a href="home.html">← Back to Home</a>
     </nav>
     <main>
         <div class="product-list">
             <div class="product-item">
-                <img src="/api/placeholder/200/200" alt="Packaging Tape">
+                <img src="static/images/tape.jpg" alt="Packaging Tape">
                 <h2>Packaging Tape</h2>
                 <p>Strong adhesive tape for secure packaging and sealing.</p>
+                <a class="more-details" href="#">Description</a>
             </div>
             <div class="product-item">
-                <img src="/api/placeholder/200/200" alt="Stretch Film">
+                <img src="static/images/stretchfilm.jpg" alt="Stretch Film">
                 <h2>Stretch Film</h2>
                 <p>Flexible film for wrapping and securing pallets and large items.</p>
+                <a class="more-details" href="#">Description</a>
             </div>
             <div class="product-item">
-                <img src="/api/placeholder/200/200" alt="Corner Board">
+                <img src="static/images/cornerboard.jpg" alt="Corner Board">
                 <h2>Corner Board</h2>
                 <p>Protective edges for shipping and storing large items.</p>
+                <a class="more-details" href="#">Description</a>
             </div>
             <div class="product-item">
-                <img src="/api/placeholder/200/200" alt="Cable Tie">
+                <img src="static/images/cabletie.jpg" alt="Cable Tie">
                 <h2>Cable Tie</h2>
                 <p>Versatile fasteners for bundling and organizing.</p>
+                <a class="more-details" href="#">Description</a>
             </div>
             <div class="product-item">
-                <img src="/api/placeholder/200/200" alt="Carton">
+                <img src="static/images/carton.jpg" alt="Carton">
                 <h2>Carton</h2>
                 <p>Sturdy boxes for packaging and shipping various products.</p>
+                <a class="more-details" href="#">Description</a>
             </div>
         </div>
     </main>
