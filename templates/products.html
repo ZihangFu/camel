@@ -57,9 +57,23 @@
         }
         .hero {
             background-color: #f0f0f0;
-            padding: 2rem;
+            padding: 4rem 2rem;
             text-align: center;
             margin-bottom: 2rem;
+            background-image: url('static/images/hero-background.jpg'); /* 添加背景图像 */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff; /* 设置字体颜色为白色 */
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* 添加半透明黑色遮罩层 */
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin: 0;
         }
         .products {
             display: grid;
